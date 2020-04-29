@@ -1,6 +1,7 @@
 import mongoose from "mongoose";
 
-const CONNECTION = "mongodb+srv://fullstackUser:lyngbymongo@fullstack-cluster-ikeoi.mongodb.net/graphql?retryWrites=true&w=majority"
+
+const CONNECTION = "ADD YOUR OWN CONNECTION STRING"
 
 mongoose.connect(CONNECTION,{useUnifiedTopology: true,useNewUrlParser:true})
 
